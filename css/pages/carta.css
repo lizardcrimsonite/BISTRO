@@ -127,16 +127,20 @@ footer {
   border-top: 4px solid #f3e306;
   border-bottom: 4px solid #f3e306;
   background-color: rgba(10, 115, 236, 0.15);
-  padding: 30px 0; /* Espaciado superior e inferior */
+  padding: 30px 0;
+  /* Espaciado superior e inferior */
   /* height: 150px; ← Elimina esta línea */
 }
 
+
 footer .container {
   display: flex;
-  align-items: center;  /* Centrado vertical */
+  align-items: center;
+  /* Centrado vertical */
   justify-content: space-between;
   gap: 1rem;
-  flex-wrap: wrap;      /* Para que no se rompa en móviles */
+  flex-wrap: wrap;
+  /* Para que no se rompa en móviles */
 }
 
 
@@ -156,7 +160,21 @@ footer p {
 
 footer .text-end {
   text-align: right;
+  font-family: "Glass Antiqua", cursive;
+
 }
+
+@media (max-width: 768px) {
+  footer .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .text-end {
+    text-align: center;
+  }
+}
+
 /* Estilos base */
 .social-icon {
   transition: all 0.3s ease;

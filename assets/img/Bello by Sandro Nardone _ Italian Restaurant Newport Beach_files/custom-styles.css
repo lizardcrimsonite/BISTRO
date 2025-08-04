@@ -1,0 +1,511 @@
+.wiskey-center-section {
+    text-align: center;
+}
+.qodef-grid.qodef-layout--columns.qodef-col-num--6 > .qodef-grid-inner > .qodef-grid-item {
+    width: 25%;
+}
+#qodef-page-footer-bottom-area {
+    background-color: #959998;
+}
+#qodef-page-footer-top-area {
+    background-color: #192e5b;
+}
+#qodef-page-footer .widget a {
+    color: #fcffff;
+}
+#qodef-page-footer .widget {
+    color: #fcffff;
+}
+#qodef-page-footer .widget .qodef-widget-title {
+    color: #fcffff;
+}
+
+.qodef-h4,
+h4 {
+    color: #192e5b;
+}
+
+.qodef-h2,
+h2 {
+    color: #192e5b;
+}
+.client-title {
+    text-align: center;
+    font-size: 35px;
+    line-height: 1;
+}
+.wiskey-center-section p {
+    color: #192e5b;
+    font-family: 'florentialight';
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+.insta-img {
+    margin-bottom: 25px;
+}
+
+.insta-title-sec {
+    text-align: center;
+}
+p,p a,#qodef-page-footer .widget a {
+    font-family: 'florentialight';
+}
+.qodef-h2, h2, .qodef-h3, h3  {
+    font-family: 'florentiaregular';
+} 
+
+.qodef-h4, h4, .qodef-h5, h5 {
+    font-family: 'florentiaregular';
+    line-height: 1.47em;
+}
+.bello-title {
+    color: #192e5b;
+/*      font-family: 'Pirouette LT Std';*/
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0 0 25px;
+}
+.folow-title {
+    font-size: 35px;
+    margin: 0 0 15px;
+} 
+.team-title {
+    color: #192e5b;
+    /* font-family: 'Pirouette LT Std'; */
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0 0 25px;
+    text-transform: uppercase;
+}
+.qodef-team-list .qodef-e-title {
+    font-size: 24px;
+}
+.most-exclusive-title {
+    color: #192e5b;
+    font-family: 'florentialight';
+    font-size: 1.8rem;
+    line-height: 1;
+    margin: 15px 0 25px;
+    text-transform: inherit;
+}
+
+.orange-county-title {
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.book-table-btn {
+    background-color: #192e5b;
+    border: 1px solid #192e5b;
+    color: #fff;
+    padding: 15px 40px;
+    display: inline-block;
+    font-family: 'florentiaregular';
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    min-width: 260px;
+    text-align: center;
+    margin-right: 20px;
+}
+.book-table-btn:hover, .book-table-btn:focus, .book-table-btn:focus-within {
+    border: 1px solid #192e5b;
+    background-color: transparent;
+    color: #192e5b;
+}
+.community-list ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.community-list ul li img {
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+    max-width: 200px;
+}
+
+.community-list ul li {
+    padding: 15px;
+}
+
+.qodef-header-navigation>ul>li.top-book-now>a .qodef-menu-item-text {
+    background-color: #192e5b;
+    color: #fff;
+    line-height: 1;
+    padding: 10px 15px;
+}
+
+.our-st-img p {
+	font-size: 27px;
+}
+.team-our-img img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+}
+
+.team-top-img {
+    margin-top: -130px;
+    position: relative;
+}
+.our-st-content {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.our-st-img img {
+    max-width: 150px;
+}
+
+.our-st-content p {
+    text-align: center;
+    color: #192e5b;
+    font-family: 'florentiaregular';
+    max-width: 900px;
+    margin: 0px auto 20px;
+}
+
+.our-st-title {
+    font-size: 35px;
+    margin: 0 0 20px;
+}
+
+.our-st-img img {
+    margin-bottom: 20px;
+}
+.about-tema-img img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    object-position: center 23%;
+}
+
+.about-team {
+    position: relative;
+    margin-top: -360px;
+}    
+.pd-team {
+    padding: 180px 0;
+}    
+.about-our-content p {
+    text-align: center;
+    color: #192e5b;
+    font-family: 'florentialight';
+    /*font-size: 1.5rem;
+    line-height: 1.3;*/
+    margin-bottom: 25px;
+    max-width: 90%;
+    margin: 0 auto 25px;
+}
+
+.elegant-img {
+    text-align: center;
+}
+
+.about-copy-content {
+    padding: 60px 0;
+}    
+    .about-slider-img {
+    padding: 10px;
+}
+.lead-form-section {
+    margin-bottom: 60px;
+}    
+.lead-title {
+    font-size: 1.75rem;
+    text-align: center;
+}    
+.row_contact_header h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#tripleseat_embed_form #lead_phone_number {
+    width: 100%;
+}
+
+#tripleseat_embed_form input, #tripleseat_embed_form button, #tripleseat_embed_form textarea {
+    border: 1px solid #262626;
+}
+
+.row_contact_preference select {
+    width: 100%;
+    border: 1px solid #262626;
+}
+
+#tripleseat_embed_form #lead_phone_number_extension {
+    width: 100%;
+}
+
+input.hasDatepicker {
+    width: 100%;
+}
+
+input.timeselect_input {
+    width: 100%;
+}
+
+#lead_form_submit input:hover {
+    color: #000;
+}    
+.inner-bg {
+    padding: 200px 0;
+    background-size: cover;
+    background-position: center 33%;
+        margin-bottom: 60px;
+}
+
+.inner-hr-title {
+    text-align: center;
+    color: #fff;
+    font-family: 'Florentia Med';
+    text-shadow: 1px 1px 2px black;
+}
+.pe-title {
+    margin: 0;
+    text-align: center;
+    /*font-size: 3rem;*/
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.pe-title span {
+    display: block;
+    /*font-size: 3.5rem;*/
+        display: contents;
+}
+
+.private-events-top-content p, .private-events-top-content a {
+    text-align: center;
+    color: #192e5b;
+    font-family: 'florentiaregular';
+    font-size: 24px;
+    max-width: 990px;
+    line-height: 35px;
+    margin: 0px auto 20px;
+}
+
+.private-events-top-content p:last-child {
+    margin-bottom: 0;
+}
+
+.private-events-top-content {
+    padding: 25px 0;
+}
+.qodef-section-title .qodef-m-text.qodef-m-text {
+    color: #192e5b;
+    font-family: 'florentialight';
+    /*font-size: 1.5rem;*/
+    line-height: 1.4;
+}
+
+.qodef-section-title .qodef-m-title {
+    color: #192e5b;
+    font-family: 'florentiaregular';
+    /*font-size: 3rem;*/
+    line-height: 1.4;
+}
+.accessibility-section {
+    padding: 60px 0;
+}
+
+.accessiblity-title {
+    font-size: 24px;
+    margin: 0 0 5px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.accessiblity-pd p {
+    margin: 0 0 15px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #192e5b;
+}
+
+.accessiblity-pd p:last-child {
+    margin-bottom: 0;
+}
+
+.accessiblity-pd {
+    margin-bottom: 30px;
+}
+/******************************************************/
+/******************************************************/
+/******************************************************/
+/********* RWD STYLES AND MEDIA QURIES*****************/
+/******************************************************/
+/******************************************************/
+
+@media (min-width:1024px) and (max-width:1400px){
+    .qodef-header-navigation>ul>li>a {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .qodef-header-navigation>ul>li>a .qodef-menu-item-text {
+        padding: 0 5px;
+    }
+
+    .qodef-header-navigation>ul>li {
+        margin: 0px 10px;
+    }
+}
+
+@media (max-width:767px){
+    .elementor-1581 .elementor-element.elementor-element-ec50755 {
+    margin-top: 50px;
+}
+
+.elementor-1581 .elementor-widget-container h4 {
+    font-size: 20px;
+}
+
+#book-a-table h2 {
+    font-size: 24px;
+}
+
+.elementor-1581 .elementor-element.elementor-element-695b62a {
+    margin: 50px 0;
+}
+
+.elementor-1581 .elementor-element.elementor-element-2cd35f0 {
+    margin-top: 50px;
+}
+
+.orange-county-title {
+    font-size: 20px;
+}
+
+.most-exclusive-title {
+    font-size: 2rem;
+}
+
+.wiskey-center-section p {
+    font-size: 1.25rem;
+}
+
+.elementor-1581 .elementor-element.elementor-element-8042ac2 > .elementor-element-populated {
+    padding: 0 2%;
+}
+
+.book-table-btn {
+    margin-right: 0;
+    min-width: 100%;
+    padding: 15px 0;
+    font-size: 1rem;
+}
+
+.elementor-1581 .elementor-element.elementor-element-dfd23ef {
+    margin: 50px 0;
+}
+
+.team-title {
+    font-size: 2.5rem;
+    line-height: 0.8;
+}
+
+.folow-title {
+    font-size: 24px;
+}
+
+.bello-title {
+    font-size: 2.5rem;
+}
+
+.client-title {
+    font-size: 24px;
+    line-height: 1.3;
+}
+    .team-our-img img {
+    height: 200px;
+}
+
+h2.our-st-title {}
+
+.our-st-title {
+    font-size: 24px;
+}
+
+.our-st-img img {
+    max-width: 100px;
+}
+
+.our-st-content p {
+    font-size: 20px;
+}
+
+.about-tema-img img {
+       height: 400px;
+    margin-bottom: 20px;
+
+}
+
+.about-our-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.inner-bg {
+    padding: 50px 0;
+    margin-bottom: 0;
+}
+
+.inner-hr-title {
+    font-size: 2rem;
+}
+
+.pe-title {
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+.private-events-top-content p, .private-events-top-content a {
+    font-size: 18px;
+}
+
+.elementor-887 .elementor-element.elementor-element-21b0544 {
+    margin: 30px 0 !important;
+}
+
+.qodef-section-title .qodef-m-title {
+    font-size: 1.5rem;
+}
+
+.elementor-887 .elementor-element.elementor-element-9620dc2 > .elementor-element-populated {
+    margin: 20px 0 0 !important;
+}
+
+.qodef-section-title .qodef-m-text.qodef-m-text {
+    font-size: 18px;
+}
+
+.elementor-887 .elementor-element.elementor-element-5dcbc5e > .elementor-widget-container {
+    margin: 15px 0 0;
+}
+
+.lead-title {
+    font-size: 1.2rem;
+}
+
+.row_contact_header h2 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+#lead_form_event_header {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}    
+    
+}
+
+.fs-7 {
+    font-size: .85rem!important;
+    line-height: 1.7rem;
+}

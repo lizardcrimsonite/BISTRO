@@ -31,7 +31,7 @@ body {
   color: #ffffff;
   font-family: "Glass Antiqua", cursive;
   font-style: normal;
-  font-size: 20px;
+  font-size: 2px;
   margin-right: 10px;
   margin-top: 15px;
 }
@@ -40,7 +40,45 @@ body {
 .nav-link.active {
   color: #91c95d;
 }
+/* Centrar horizontalmente los links cuando el menú está colapsado (móviles) */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    text-align: center;
+  }
 
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-brand img {
+    width: 150px;
+    left: 10px;
+    top: 10px;
+  }
+}
+
+/* Ajustes para pantallas grandes */
+@media (min-width: 992px) {
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .navbar-collapse {
+    background: none;
+    backdrop-filter: none;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .navbar.bg-light {
+    height: 130px;
+    padding-top: 20px;
+  }
+}
 /* ==================== Carousel ==================== */
 .carousel-item img {
   object-fit: cover;

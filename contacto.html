@@ -40,38 +40,34 @@
         </div>
     </nav>
     <section id="contact" class="contact-section">
-        <div class="contact-overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-8 mx-auto">
-                        <h2 class="section-title text-center">Contáctanos</h2>
-                        <p class="section-subtitle text-center">Estamos aquí para ayudarte. Envíanos un mensaje y te
-                            responderemos
-                            lo más pronto posible.</p>
-
-                        <form id="contact-form" action="https://formspree.io/f/xzzzgpnr" method="POST">
-                            <div class="mb-3">
-                                <label for="name" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" id="name" name="name" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Correo Electrónico</label>
-                                <input type="email" class="form-control" id="email" name="email" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
-                            </div>
-                            <button type="submit" class="btn  w-100">Enviar Mensaje</button>
-                        </form>
-
-                        <!-- Mensaje de éxito (invisible por defecto) -->
-                        <div id="success-message" class="alert alert-success mt-3" style="display: none;">
-                            ¡Mensaje enviado con éxito!
+        <div class="contact-container">
+            <div class="form-wrapper">
+                <div class="glass-form">
+                    <h2 class="section-title">Contáctanos</h2>
+                    <p class="section-subtitle">Estamos aquí para ayudarte. Envíanos un mensaje y te responderemos lo
+                        más pronto posible.</p>
+                    <form id="contact-form" action="https://formspree.io/f/xzzzgpnr" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
                         </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                    </form>
 
+                    <div id="success-message" class="alert-success">¡Mensaje enviado con éxito!</div>
+                </div>
 
-                    </div>
+                <!-- QR Code -->
+                <div class="qr-wrapper">
+                    <img src="assets/img/QRcodigo.png" alt="Código QR" class="qr-image">
                 </div>
             </div>
         </div>

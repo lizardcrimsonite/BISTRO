@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Restaurante | Carta</title>
+  <title>Restaurante | Galeria</title>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -43,65 +43,92 @@
       </div>
     </div>
   </nav>
-
-  <!-- Sección principal -->
-  <section class="hero">
+  <section class="text-center py-5 bg-white">
     <div class="container">
-      <h1>Bienvenido a Nuestro Restaurante</h1>
-      <p>Descubre nuestras deliciosas entradas</p>
-
-      <!-- Botón que abre el modal -->
-      <button type="button" class="btn btn-outline-primary btn-lg btn-carta" data-bs-toggle="modal"
-        data-bs-target="#modalEntradas">
-        Ver Entradas
-      </button>
-      
+      <h2 class="display-4 fw-bold mb-3">Descubre la Magia de Nuestra Cocina</h2>
+      <p class="lead mb-4">
+        Sumérgete en un recorrido visual por nuestros platos, espacios y momentos que hacen de EntreVolcanes una
+        experiencia inolvidable.
+      </p>
+      <a href="javascript:void(0)" class="btn btn-outline-dark btn-lg" onclick="mostrarGaleria()">Explorar Galería</a>
     </div>
   </section>
 
-  <!-- Modal con imagen de la carta -->
-  <div class="modal fade" id="modalEntradas" tabindex="-1" aria-labelledby="modalEntradasLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalEntradasLabel">Carta - Entradas</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-        </div>
-        <div class="modal-body text-center">
-          <!-- Aquí va tu imagen de Canva -->
-          <img src="assets/img/carta-entradas.png" alt="Carta - Entradas" class="img-fluid rounded shadow">
+
+  <!-- Hero Section -->
+
+
+  <!-- Sección secundaria oculta inicialmente -->
+  <section id="galeria" class="container-fluid py-5 hero-galeria d-none">
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <img src="assets/img/img14.jpg" class="img-fluid w-100 h-100 object-fit-cover rounded"
+          alt="Galería EntreVolcanes">
+      </div>
+      <div class="col-lg-4 p-4">
+        <div class="bg-light p-4 rounded shadow">
+          <h1 class="display-5 fw-bold" 🎉 ¡Haz que tu evento sea inolvidable!</h1>
+            <p class="lead">
+              Sumérgete en la esencia de nuestra cocina, nuestros paisajes y la calidez de nuestra gente.Ya sea una
+              celebración familiar, una fiesta especial o un evento corporativo, estamos listos para sorprenderte.<br>
+              Ofrecemos experiencias gastronómicas únicas y atención personalizada para que cada momento sea memorable.
+            </p>
+            <div class="text-center mt-4">
+              <a href="contacto.html" class="btn btn-primary btn-lg">Cotiza tu evento</a>
+            </div>
+
         </div>
       </div>
     </div>
-  </div>
-<!-- Footer -->
-  <footer class="bg-light py-4">
+    <div class="row align-items-start">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="galeria-fila d-flex justify-content-center gap-3 flex-wrap">
+            <img src="assets/img/img7.jpg" class="img-fluid galeria-img rounded" alt="Galería EntreVolcanes">
+            <img src="assets/img/img12.jpg" class="img-fluid galeria-img rounded" alt="Galería EntreVolcanes">
+            <img src="assets/img/img13.jpg" class="img-fluid galeria-img rounded" alt="Galería EntreVolcanes">
+            <img src="assets/img/img14.jpg" class="img-fluid galeria-img rounded" alt="Galería EntreVolcanes">
+            <img src="assets/img/img27.jpg" class="img-fluid galeria-img rounded" alt="Galería EntreVolcanes">
+            <img src="assets/img/img112.jpg" class="img-fluid galeria-img rounded" alt="Galería EntreVolcanes">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class=" py-4">
     <div class="container d-flex justify-content-between align-items-center flex-wrap">
       <div class="d-flex gap-3">
         <a href="https://www.facebook.com/" aria-label="Facebook" class="fs-4 social-icon" target="_blank">
-                    <i class="bi bi-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/" aria-label="Instagram" class="fs-4 social-icon" target="_blank">
-                    <i class="bi bi-instagram"></i>
-                </a>
-                <a href="https://wa.me/56912345678" aria-label="WhatsApp" class="fs-4 social-icon" target="_blank">
-                    <i class="bi bi-whatsapp"></i>
-                </a>
-                <a href="https://www.linkedin.com/" aria-label="LinkedIn" class="fs-4 social-icon" target="_blank">
-                    <i class="bi bi-linkedin"></i>
-                </a>
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/" aria-label="Instagram" class="fs-4 social-icon" target="_blank">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://wa.me/56912345678" aria-label="WhatsApp" class="fs-4 social-icon" target="_blank">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://www.linkedin.com/" aria-label="LinkedIn" class="fs-4 social-icon" target="_blank">
+          <i class="bi bi-linkedin"></i>
+        </a>
       </div>
 
       <div class="mx-auto">
         <img src="assets/img/Capturalogo-Photoroom.png" alt="EntreVolcanes Logo" width="60" height="60" />
       </div>
       <div class="text-end">
-        <p class="mb-1">Av. Principal 123, Puerto Montt, Chile</p>
-        <p class="mb-0">Tel: +56 9 1234 5678</p>
+        <p class="mb-1">Volcan Michimavida 296.</p>
+        <p class="mb-0">Valle Volcanes, Pto. Montt.</p>
       </div>
     </div>
   </footer>
   <!-- Bootstrap JS (importante para modales) -->
+  <script src="js/script.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
