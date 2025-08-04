@@ -1,0 +1,245 @@
+/* General */
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+/* Navbar */
+.navbar-brand img {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  margin-bottom: 15px;
+  /* Ajusta según el tamaño del logo */
+  left: 140px;
+  /* O usa 'right' si lo quieres en la otra esquina */
+  z-index: 2;
+}
+
+.navbar.bg-light {
+  background-color: #23545f !important;
+  height: 150px;
+  /* Cambia a tu color deseado */
+  padding-top: 20px;
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease;
+  color: #ffffff;
+  font-family: "Glass Antiqua", cursive;
+  font-style: normal;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+
+.nav-link:hover,
+.nav-link.active {
+  color: #91c95d;
+}
+
+/* Carousel */
+.carousel-item img {
+  object-fit: cover;
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 250px;
+  }
+}
+
+/* Sección Nosotros */
+#nosotros {
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+#nosotros h2 {
+  font-family: "Glass Antiqua", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#nosotros p {
+  margin-bottom: 1.5rem;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #ddd;
+}
+
+footer .container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer img {
+  max-width: 60px;
+  height: auto;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+footer .text-end {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  footer .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  footer .text-end {
+    text-align: center;
+  }
+}
+
+/* Utilidades */
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+/* Asegura que el contenedor principal se vea bien */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* Carousel */
+.carousel-item img {
+  object-fit: cover;
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 250px;
+  }
+}
+
+/* Cards - Galería */
+#content-cards h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#content-cards p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card {
+  transition: transform 0.3s ease;
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 700;
+  color: #23545f;
+}
+
+.card-subtitle {
+  font-size: 0.9rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #ddd;
+  background-color: #f8f9fa;
+}
+
+footer img {
+  max-width: 60px;
+  height: auto;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+footer .text-end {
+  text-align: right;
+}
+/* Estilos base */
+.social-icon {
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+/* Efecto hover */
+.social-icon:hover {
+  filter: brightness(85%);
+  transform: scale(1.1);
+}
+
+/* Colores originales */
+.social-icon[aria-label="Facebook"] {
+  color: #1877F2;
+}
+
+.social-icon[aria-label="Instagram"] {
+  color: #E4405F;
+}
+
+.social-icon[aria-label="WhatsApp"] {
+  color: #25D366;
+}
+
+.social-icon[aria-label="LinkedIn"] {
+  color: #0077B5;
+}
+
+@media (max-width: 768px) {
+  footer .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  footer .text-end {
+    text-align: center;
+  }
+}
