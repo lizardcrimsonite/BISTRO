@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'KG All of You';
+    src: url('KGAllofYou-Regular.eot');
+    src: url('KGAllofYou-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KGAllofYou-Regular.woff2') format('woff2'),
+        url('KGAllofYou-Regular.woff') format('woff'),
+        url('KGAllofYou-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+

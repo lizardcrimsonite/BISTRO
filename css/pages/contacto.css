@@ -33,9 +33,9 @@
 
 .navbar.bg-light {
   background-color: #23545f !important;
-  height: 150px;
-  /* Cambia a tu color deseado */
+  height: 130px;
   padding-top: 20px;
+  border-bottom: 4px solid #f3e306;
 }
 
 .nav-link {
@@ -44,7 +44,7 @@
   color: #ffffff;
   font-family: "Glass Antiqua", cursive;
   font-style: normal;
-  font-size: 25px;
+  font-size: 20px;
   margin-right: 10px;
   margin-top: 15px;
 }
