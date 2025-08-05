@@ -5,94 +5,90 @@ body {
   padding: 0;
 }
 
-/* Navbar */
+/* Logo dentro del navbar */
 .navbar-brand img {
-  width: 300px;
-  height: 100px;
+  width: 180px;
+  height: auto;
+  max-height: 80px;
   position: absolute;
-  margin-bottom: 15px;
-  /* Ajusta según el tamaño del logo */
-  left: 140px;
-  /* O usa 'right' si lo quieres en la otra esquina */
+  top: 15px;
+  left: 20px; /* Valor por defecto para móviles */
   z-index: 2;
 }
 
+/* Navbar fondo y estilo general */
 .navbar.bg-light {
   background-color: #23545f !important;
-  height: 130px;
+  height: auto;
   padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 4px solid #f3e306;
+  position: relative;
+  z-index: 1;
 }
 
+/* Estilos para los enlaces del navbar */
 .navbar-nav .nav-link {
   font-family: "Glass Antiqua", cursive;
-  font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 20px;
   color: white !important;
-  margin: 0 15px;
+  margin: 5px 10px;
   text-align: center;
   transition: color 0.3s ease;
 }
-
-
 
 .nav-link:hover,
 .nav-link.active {
   color: #91c95d;
 }
-@media (max-width: 991.98px) { /* Se aplica en modo colapsado (navbar-toggler activo) */
-    .navbar-collapse {
-      flex-direction: row !important;
-      justify-content: flex-end;
-    }
 
-    .navbar-nav {
-      flex-direction: row !important;
-      gap: 10px;
-    }
+/* Estilo del toggler del navbar */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
 
-    .nav-item {
-      margin-left: 10px;
-    }
-  }
-  /* Responsive adjustments para colapsado */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.9%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-size: contain;
+}
+
+/* Menú colapsado centrado */
 @media (max-width: 991.98px) {
-  .navbar-toggler {
-    display: none; /* Oculta el botón hamburguesa */
-  }
-
   .navbar-collapse {
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
+    background-color: #23545f;
+    text-align: center;
+    padding: 10px 0;
   }
 
-  .navbar-nav {
-    flex-direction: row !important;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 10px;
-  }
-
-  .navbar-brand {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 10px;
-    position: static;
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    margin: 10px 0;
   }
 
   .navbar-brand img {
-    width: 200px;
-    height: auto;
-    position: static;
-    margin: 0 auto;
+    width: 150px;
+    top: 10px;
+    left: 10px;
   }
 }
+
+/* Pantallas grandes: mueve el logo más a la derecha */
+@media (min-width: 992px) {
+  .navbar-brand img {
+    left: 140px;
+    width: 220px;
+  }
+}
+
+/* Pantallas pequeñas: logo más pequeño */
+@media (max-width: 576px) {
+  .navbar-brand img {
+    width: 130px;
+  }
+}
+
 
 /* Carousel */
 .carousel-item img {

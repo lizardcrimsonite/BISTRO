@@ -5,61 +5,88 @@
   box-sizing: border-box;
 }
 
-/* Estilo general para el navbar */
-.navbar {
-  position: static !important;
-  z-index: 1030;
-  /* Asegura que el navbar esté siempre encima */
-  background-color: #fff;
-  /* Fondo del navbar */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  /* Sombra para visibilidad */
-  padding-top: 10px;
-  /* Ajusta según sea necesario */
-  padding-bottom: 10px;
-  /* Ajusta según sea necesario */
-  height: auto;
-  /* Eliminar la altura fija para que el navbar sea flexible */
-  padding-left: 15px;
-  /* Añadir algo de espaciado a los lados */
-  padding-right: 15px;
-}
-
-
-/* Navbar */
+/* Logo dentro del navbar */
 .navbar-brand img {
-  width: 300px;
-  height: 100px;
+  width: 180px;
+  height: auto;
+  max-height: 80px;
   position: absolute;
-  margin-bottom: 15px;
-  /* Ajusta según el tamaño del logo */
-  left: 140px;
-  /* O usa 'right' si lo quieres en la otra esquina */
+  top: 15px;
+  left: 20px; /* Valor por defecto para móviles */
   z-index: 2;
 }
 
+/* Navbar fondo y estilo general */
 .navbar.bg-light {
   background-color: #23545f !important;
-  height: 130px;
+  height: auto;
   padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 4px solid #f3e306;
+  position: relative;
+  z-index: 1;
 }
 
+/* Estilos para los enlaces del navbar */
 .navbar-nav .nav-link {
   font-family: "Glass Antiqua", cursive;
-  font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 20px;
   color: white !important;
-  margin: 0 15px;
+  margin: 5px 10px;
   text-align: center;
   transition: color 0.3s ease;
 }
 
-
 .nav-link:hover,
 .nav-link.active {
   color: #91c95d;
+}
+
+/* Estilo del toggler del navbar */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.9%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-size: contain;
+}
+
+/* Menú colapsado centrado */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: #23545f;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .navbar-brand img {
+    width: 150px;
+    top: 10px;
+    left: 10px;
+  }
+}
+
+/* Pantallas grandes: mueve el logo más a la derecha */
+@media (min-width: 992px) {
+  .navbar-brand img {
+    left: 140px;
+    width: 220px;
+  }
+}
+
+/* Pantallas pequeñas: logo más pequeño */
+@media (max-width: 576px) {
+  .navbar-brand img {
+    width: 130px;
+  }
 }
 
 /* Carousel */
