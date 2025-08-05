@@ -2,46 +2,46 @@ document.addEventListener('DOMContentLoaded', () => {
   const logo = document.getElementById('heroLogo');
 
   if (logo) {
+    // Aplicar animación inicial
     logo.classList.add('pulse');
 
+    // Solo escalar sin remover la clase
     logo.addEventListener('mouseenter', () => {
-      logo.classList.remove('pulse');
       logo.style.transform = 'scale(1.1)';
     });
 
     logo.addEventListener('mouseleave', () => {
       logo.style.transform = 'scale(1)';
-      logo.classList.add('pulse');
     });
+  }
+
+  // Scroll suave
+  document.querySelectorAll('a[href^="#"]').forEach(ancla => {
+    ancla.addEventListener('click', function (e) {
+      e.preventDefault();
+      const destino = document.querySelector(this.getAttribute('href'));
+      if (destino) {
+        destino.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+
+  // Botón para mostrar galería
+  const btnCarta = document.getElementById('btnExplorarCarta');
+  if (btnCarta) {
+    btnCarta.addEventListener('click', mostrarGaleria);
   }
 });
 
 function mostrarGaleria() {
   const galeria = document.getElementById('galeria');
   if (galeria) {
-    // Quitar ocultamiento
     galeria.classList.remove('d-none');
-    
-    // Forzar reflow para reiniciar animación (opcional para garantizar que se ejecute)
+
     void galeria.offsetWidth;
-    
-    // Agregar clase de animación
+
     galeria.classList.add('fade-in');
-    
-    // Scroll suave hacia la galería
+
     galeria.scrollIntoView({ behavior: 'smooth' });
   }
 }
-
-  document.querySelectorAll('a[href^="#"]').forEach(ancla => {
-    ancla.addEventListener('click', function(e) {
-      e.preventDefault();
-      const destino = document.querySelector(this.getAttribute('href'));
-      if (destino) {
-        destino.scrollIntoView({
-          behavior: 'smooth'
-        });
-      }
-    });
-  });
-
