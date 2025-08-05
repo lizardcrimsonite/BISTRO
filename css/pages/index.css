@@ -40,10 +40,15 @@ html {
 }
 
 .hero-logo {
-  width: 650px;
+  width: 450px;
   transition: transform 0.3s ease-in-out;
 }
-
+/* MEDIA QUERY para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  .hero-section img {
+    max-width: 70%; 
+  }
+}
 @keyframes pulse {
   0% {
     transform: scale(1);
