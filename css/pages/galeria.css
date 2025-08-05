@@ -26,14 +26,15 @@ body {
   border-bottom: 4px solid #f3e306;
 }
 
-.nav-link {
-  font-weight: 500;
-  transition: color 0.3s ease;
-  color: #fff;
+.navbar-nav .nav-link {
   font-family: "Glass Antiqua", cursive;
-  font-size: 20px;
-  margin-right: 10px;
-  margin-top: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: white !important;
+  margin: 0 15px;
+  text-align: center;
+  transition: color 0.3s ease;
 }
 
 .nav-link:hover,
@@ -242,6 +243,7 @@ body {
 
 
 /* Footer */
+/* ==================== Footer ==================== */
 footer {
   border-top: 4px solid #f3e306;
   border-bottom: 4px solid #f3e306;
@@ -273,14 +275,17 @@ footer a {
 }
 
 footer p {
-  font-size: 0.9rem;
   margin: 0;
+  font-size: 18px !important;
+  margin-top: 5px
 }
 
 footer .text-end {
-  text-align: right;
+  text-align: center;
   font-family: "Glass Antiqua", cursive;
-
+  font-weight: bold;
+  color: #23545f;
+  margin-top: 5px
 }
 
 @media (max-width: 768px) {

@@ -45,15 +45,15 @@
   border-bottom: 4px solid #f3e306;
 }
 
-.nav-link {
-  font-weight: 500;
-  transition: color 0.3s ease;
-  color: #ffffff;
+.navbar-nav .nav-link {
   font-family: "Glass Antiqua", cursive;
   font-style: normal;
-  font-size: 20px;
-  margin-right: 10px;
-  margin-top: 15px;
+  font-weight: 500;
+  font-size: 22px;
+  color: white !important;
+  margin: 0 15px;
+  text-align: center;
+  transition: color 0.3s ease;
 }
 
 

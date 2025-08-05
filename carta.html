@@ -84,7 +84,7 @@
               apetito o compartir
             </p>
             <button type="button" class="btn btn-outline-primary btn-lg btn-carta" data-bs-toggle="modal"
-              data-bs-target="#modalBarra">
+              data-bs-target="#modalEntradas">
               Ver Entradas
             </button>
           </div>
@@ -102,7 +102,7 @@
               ¡Perfectas para compartir y crear momentos inolvidables!
             </p>
             <button type="button" class="btn btn-outline-primary btn-lg btn-carta" data-bs-toggle="modal"
-              data-bs-target="#modalBarra">
+              data-bs-target="#modalPrincipales">
               Ver Principales
             </button>
           </div>
@@ -140,7 +140,7 @@
               ofrecerte preparaciones que honran la tradición costera con un toque de innovación.
             </p>
             <button type="button" class="btn btn-outline-primary btn-lg btn-carta" data-bs-toggle="modal"
-              data-bs-target="#modalPrincipales">
+              data-bs-target="#modalPescados">
               Ver Pescados
             </button>
           </div>
@@ -159,7 +159,7 @@
               homenaje al arte de la parrilla, ideal para los amantes del buen comer.
             </p>
             <button type="button" class="btn btn-outline-primary btn-lg btn-carta" data-bs-toggle="modal"
-              data-bs-target="#modalGuarniciones">
+              data-bs-target="#modalGrillRaw">
               Ver Grill & Raw
             </button>
           </div>
@@ -170,7 +170,126 @@
 
     <!-- Modales -->
 
+    <!-- Modal Pastas -->
+    <div class="modal fade" id="modalPastas" tabindex="-1" aria-labelledby="modalPastasLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content position-relative">
+        <div class="position-absolute w-100 h-100" style="
+        background-image: url('assets/img/img23.jpg');
+        background-size: cover;
+        background-position: center;
+        filter: blur(6px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        "></div>
+
+        <div class="modal-header position-relative" style="z-index: 2;">
+        <h5 class="modal-title text-white" id="modalPastasLabel">Pastas</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+          aria-label="Cerrar"></button>
+        </div>
+
+        <div class="modal-body position-relative text-white" style="z-index: 2;">
+        <ul class="list-group bg-transparent">
+          <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Fettuccine casero con salsa de mariscos - $10.000</li>
+          <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Ravioles de ricotta y espinaca - $9.500</li>
+          <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Ñoquis de papa al pesto - $8.500</li>
+        </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- Modal Pescados y Mariscos -->
+    <div class="modal fade" id="modalPescados" tabindex="-1" aria-labelledby="modalPescadosLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content position-relative">
+        <div class="position-absolute w-100 h-100" style="
+        background-image: url('assets/img/img21.jpg');
+        background-size: cover;
+        background-position: center;
+        filter: blur(6px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        "></div>
+
+        <div class="modal-header position-relative" style="z-index: 2;">
+        <h5 class="modal-title text-white" id="modalPescadosLabel">Pescados y Mariscos</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+          aria-label="Cerrar"></button>
+        </div>
+
+        <div class="modal-body position-relative text-white" style="z-index: 2;">
+        <ul class="list-group bg-transparent">
+          <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Salmón a la mantequilla de merkén - $13.000</li>
+          <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Reineta al vapor con papas chilotas - $12.500</li>
+          <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Mariscal caliente - $11.000</li>
+        </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- Modal Grill & Raw -->
+    <div class="modal fade" id="modalGrillRaw" tabindex="-1" aria-labelledby="modalGrillRawLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content position-relative">
+        <div class="position-absolute w-100 h-100" style="
+        background-image: url('assets/img/meat-8192405_640.jpg');
+        background-size: cover;
+        background-position: center;
+        filter: blur(6px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        "></div>
+
+        <div class="modal-header position-relative" style="z-index: 2;">
+        <h5 class="modal-title text-white" id="modalGrillRawLabel">Grill & Raw</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+          aria-label="Cerrar"></button>
+        </div>
+
+        <div class="modal-body position-relative text-white" style="z-index: 2;">
+        <ul class="list-group bg-transparent">
+          <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Bife de chorizo a la parrilla - $14.000</li>
+          <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Tártaro de salmón - $11.500</li>
+          <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Costillar ahumado - $13.000</li>
+        </ul>
+        </div>
+      </div>
+      </div>
+    </div>
     <!-- Modal Barra -->
+    <div class="modal fade" id="modalBarra" tabindex="-1" aria-labelledby="modalBarraLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content position-relative">
+        <div class="position-absolute w-100 h-100" style="
+        background-image: url('assets/img/licorimg.jpg');
+        background-size: cover;
+        background-position: center;
+        filter: blur(6px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        "></div>
+
+        <div class="modal-header position-relative" style="z-index: 2;">
+        <h5 class="modal-title text-white" id="modalBarraLabel">Bar & Cocktails</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+          aria-label="Cerrar"></button>
+        </div>
+
+        <div class="modal-body position-relative text-white" style="z-index: 2;">
+        <ul class="list-group bg-transparent">
+          <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Cóctel Patagonia - $8.000</li>
+          <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Mojito Sur - $7.500</li>
+          <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Pisco Sour Chilote - $7.000</li>
+        </ul>
+        </div>
+      </div>
+      </div>
+    </div>
     <div class="modal fade" id="modalBarra" tabindex="-1" aria-labelledby="modalBarraLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content position-relative">
@@ -200,6 +319,37 @@
         </div>
       </div>
     </div>
+        <!-- Modal Entradas & Ensaladas -->
+        <div class="modal fade" id="modalEntradas" tabindex="-1" aria-labelledby="modalEntradasLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content position-relative">
+              <div class="position-absolute w-100 h-100" style="
+                background-image: url('assets/img/img20.jpg');
+                background-size: cover;
+                background-position: center;
+                filter: blur(6px);
+                z-index: 1;
+                top: 0;
+                left: 0;
+              "></div>
+
+              <div class="modal-header position-relative" style="z-index: 2;">
+                <h5 class="modal-title text-white" id="modalEntradasLabel">Entrantes & Ensaladas</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                  aria-label="Cerrar"></button>
+              </div>
+
+              <div class="modal-body position-relative text-white" style="z-index: 2;">
+                <ul class="list-group bg-transparent">
+                  <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Tabla de mariscos - $12.000</li>
+                  <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Empanadas de loco - $8.500</li>
+                  <li class="list-group-item bg-dark bg-opacity-50 border-light text-white">Sopaipillas con pebre - $4.000</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
     <div class="modal fade" id="modalEntradas" tabindex="-1" aria-labelledby="modalEntradasLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content position-relative">
@@ -228,7 +378,8 @@
           </div>
         </div>
       </div>
-    </div><!-- Modal Barra -->
+    </div>
+    <!-- Modal Barra -->
     <div class="modal fade" id="modalBarra" tabindex="-1" aria-labelledby="modalBarraLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content position-relative">
